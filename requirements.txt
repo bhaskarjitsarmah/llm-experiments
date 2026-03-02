@@ -1,0 +1,15 @@
+transformer_lens>=1.19.0
+torch>=2.0.0
+torchvision
+numpy
+matplotlib
+seaborn
+plotly
+einops
+jaxtyping
+circuitsvis
+scikit-learn
+jupyter
+ipywidgets
+tqdm
+pandas
