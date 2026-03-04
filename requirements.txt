@@ -13,3 +13,8 @@ jupyter
 ipywidgets
 tqdm
 pandas
+h5py>=3.9
+umap-learn
+networkx
+pyarrow
+scipy
