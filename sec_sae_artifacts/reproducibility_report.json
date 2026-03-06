@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-03-05T17:18:00",
+  "model": "gpt2",
+  "hook_layer": 8,
+  "hook_name": "blocks.8.hook_mlp_out",
+  "d_mlp": 768,
+  "n_features": 3072,
+  "expansion": 4,
+  "l1_coeff": 0.0008,
+  "sae_epochs": 3,
+  "sae_batch": 1024,
+  "sae_lr": 0.0003,
+  "total_tokens": 230400,
+  "total_chunks": 300,
+  "n_filings": 150,
+  "n_filing_profiles": 150,
+  "tickers": [
+    "AAPL",
+    "AMZN",
+    "CVX",
+    "GOOGL",
+    "GS",
+    "JNJ",
+    "JPM",
+    "MSFT",
+    "PFE",
+    "XOM"
+  ],
+  "years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018
+  ],
+  "sections": [
+    "business",
+    "mda",
+    "risk_factors"
+  ],
+  "final_mse": 0.031809426844120026,
+  "final_l0": 534.98046875,
+  "dead_frac": 0.0,
+  "seed": 42,
+  "device": "mps"
+}
